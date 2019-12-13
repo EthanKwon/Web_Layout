@@ -13,3 +13,4 @@
     - width :100%는 기본값 이므로 생략 가능 (layout05.html)
     - 부모 element는 자식 element의 height를 따라 가기 때문에 생략 가능 (layout05.html)
     - 자식 element의 height는 **inherit**을 이용해 부모 element의 높이를 가져올 수 있다. (layout06.html)
+    - HTML, CSS 작성시 주석으로 작업 공간 표시하기 (layout07.html);
