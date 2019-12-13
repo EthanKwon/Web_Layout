@@ -9,6 +9,6 @@
     - **float**의 사용법을 알고, block 배치 하기
     - **line-height**를 이용해 text 정 가운데 배치하기
   
-2. **Layout 02** 구성하기
+2. **Layout 02 & Layout 03** 구성하기
 
     - **clear**를 이용하여 float 요소의 성질 차단하기
