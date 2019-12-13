@@ -15,4 +15,6 @@
     - 자식 element의 height는 **inherit**을 이용해 부모 element의 높이를 가져올 수 있다. (layout06.html)
     - HTML, CSS 작성시 주석으로 작업 공간 표시하기 (layout07.html);
 
-2. **웹 표준 예제 사이트** 만들기
+### 웹 표준 예제 사이트 만들기 (19. 12. 13)
+
+1. Layout 구성하기
