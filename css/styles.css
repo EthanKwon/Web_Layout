@@ -1,6 +1,28 @@
 @charset "utf-8";
 @import "reset.css";
 
+/* 스캡 네비게이션 */
+
+#skip {
+  position: relative;
+}
+
+#skip a {
+  position: absolute;
+  left: 0;
+  top: -35px;
+  border: 1px solid white;
+  color: #fff;
+  background-color: #111;
+  line-height: 30px;
+  width: 170px;
+  text-align: center;
+}
+
+#skip a:active,
+#skip a:focus {
+  top: 0;
+}
 /* 레이아웃 */
 
 #wrap {
