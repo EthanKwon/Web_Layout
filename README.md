@@ -22,3 +22,5 @@
     - skip menu container는 맨 위에 위치 시킨다.
     - **absolute**속성을 이용하여 **top**을 - 값으로 설정하여 평소에는 보이지 않게 숨긴다.
     - **active**와 **focus**를 사용하여 Tab키로 선택이 되었을 때, 해당 menu의 top을 + 값을 지정하여 보이도록 한다.
+3. header 영역 구성하기
+4. 
