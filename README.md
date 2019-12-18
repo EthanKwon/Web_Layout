@@ -17,13 +17,16 @@
 
 ### 웹 표준 예제 사이트 만들기 (19. 12. 13)
 
-1. Layout 구성하기
-2. Skip Menu 구성하기
+1.**Layout** 구성하기
+2. **Skip Menu** 구성하기
     - skip menu container는 맨 위에 위치 시킨다.
     - **absolute**속성을 이용하여 **top**을 - 값으로 설정하여 평소에는 보이지 않게 숨긴다.
     - **active**와 **focus**를 사용하여 Tab키로 선택이 되었을 때, 해당 menu의 top을 + 값을 지정하여 보이도록 한다.
-3. header 영역 구성하기
+3. **header 영역** 구성하기
     - **inline-block**을 통해 header의 menu, title 구성하기
     - **img sprite** 기법을 이용하여 작은 아이콘 이미지들을 하나의 이미지 파일로 만들어 사용하기
     - 웹 표준을 지키기 위해 **span** 태그를 통해 아이콘의 설명을 나타내는 문자를 뒤에 숨겨 놓기
-4. 
+4. **전체 매뉴 영역** 구성하기
+    - **float : left**로 인한 영역 깨짐 방지를 위해 부모 container에 **overflow: hidden** 속성 지정하기
+    - 전체메뉴 문구는 **skip menu**에만 필요하므로 가려놓기
+    - 
