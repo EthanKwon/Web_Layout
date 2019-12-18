@@ -59,8 +59,7 @@ body {
   background: #eaf7fd;
 }
 #cont-ban {
-  height: 200px;
-  background: rgba(97, 83, 83, 0.3);
+  background: #dceff7;
 }
 #cont-cont {
   height: 200px;
@@ -219,4 +218,73 @@ body {
   width: 60px;
   height: 60px;
   background: url(../images/icon.png) no-repeat 0 -600px;
+}
+
+/* banner */
+
+.banner {
+  position: relative;
+  padding: 24px 0 20px 0;
+}
+
+.banner a.prev,
+.banner a.next {
+  position: absolute;
+  top: 60px;
+  width: 43px;
+  height: 43px;
+  background: url(../images/icon.png);
+}
+
+.banner a.prev {
+  left: -80px;
+  background-position: -150px 0;
+}
+
+.banner a.prev:hover {
+  background-position: -193px 0;
+}
+
+.banner a.next {
+  right: -80px;
+  background-position: -150px -43px;
+}
+
+.banner a.next:hover {
+  background-position: -193px -43px;
+}
+.banner ul {
+  overflow: hidden;
+}
+
+.banner ul li {
+  float: left;
+  width: 330px;
+}
+
+.banner ul li:last-child {
+  text-align: right;
+}
+
+.banner ul li:nth-child(2) {
+  text-align: center;
+}
+
+.banner ul li.ban_img1 {
+  text-align: left;
+}
+
+.banner ul li.ban_img2 {
+  text-align: center;
+}
+.banner ul li.ban_img3 {
+  text-align: right;
+}
+
+.banner ul li img {
+  border: 4px solid #dcdcdc;
+}
+
+.banner ul li img:hover {
+  border-color: #98bcdc;
 }
