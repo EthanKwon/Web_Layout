@@ -47,3 +47,7 @@
     - **visibility**를 이용해 hover를 했을 때, hidden-> visible이 되도록 설정한다.
     - **em** 태그를 이용하여 hover시 나타나는 문자를 적어준다.
     - 자주 사용하는 margin이나 padding 등 여러가지 요소를 class로 미리 만들어 두면 나중에 시간 절약이 된다.
+
+10. **탭 메뉴** 구성하기
+
+    - **margin**을 -1px하는 경우는 간혹 border의 선을 겹쳐야 한는 경우에 사용한다. 
