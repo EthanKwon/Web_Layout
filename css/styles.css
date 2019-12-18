@@ -777,9 +777,10 @@ body {
 
 /* 로그인 */
 
-#login_form {
+#login-wrap {
   background: #f2f4f5;
   padding: 15px;
+  margin-bottom: 15px;
 }
 
 .login_header {
