@@ -46,3 +46,4 @@
 9. **이미지 오버 효과** 부여하기
     - **visibility**를 이용해 hover를 했을 때, hidden-> visible이 되도록 설정한다.
     - **em** 태그를 이용하여 hover시 나타나는 문자를 적어준다.
+    - 자주 사용하는 margin이나 padding 등 여러가지 요소를 class로 미리 만들어 두면 나중에 시간 절약이 된다.
