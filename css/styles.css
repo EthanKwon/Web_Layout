@@ -53,6 +53,7 @@ body {
 
 #cont-nav {
   background-color: #f6fdff;
+  display: none;
 }
 #cont-tit {
   background: #eaf7fd;
@@ -216,6 +217,10 @@ body {
   width: 60px;
   height: 60px;
   background: url(../images/icon.png) no-repeat 0 -600px;
+}
+
+.tit .on {
+  background-position: 0 -660px;
 }
 
 /* banner */

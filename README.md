@@ -15,7 +15,7 @@
     - 자식 element의 height는 **inherit**을 이용해 부모 element의 높이를 가져올 수 있다. (layout06.html)
     - HTML, CSS 작성시 주석으로 작업 공간 표시하기 (layout07.html);
 
-### 웹 표준 예제 사이트 만들기 (19. 12. 13 ~ )
+### 웹 표준 예제 사이트 만들기 (19. 12. 13 ~ 19. 12. 18)
 
 1.**Layout** 구성하기
 
@@ -73,3 +73,15 @@
     
 14. **푸터** 구성하기
     - **가상 요소**를 이용하여 선 요소 넣기
+
+### 사이트 스크립트 (jQuery) (19. 12. 19)
+
+1. **전체 메뉴 스크립트** 넣기
+    - jQuery CDN 넣기
+    - **$**를 이용하여 클래스명 지정하기 (CSS와 유사)
+    - jQuery display 요소 : show(), fadeIn(), slideDown();
+    - jQuery display toggle 요소 : fadeToggle(), slideToggle();
+    - 괄호안에 숫자로 애니매이션 시간 조절 가능(ms 단위)
+    - addClass를 이용하여 클래스 추가 가능
+    - toggleClass를 이용하여 클래스명 toggle 기능 추가
+    - this를 이용하여 해당 클래스명 지정
