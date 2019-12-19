@@ -85,3 +85,10 @@
     - addClass를 이용하여 클래스 추가 가능
     - toggleClass를 이용하여 클래스명 toggle 기능 추가
     - this를 이용하여 해당 클래스명 지정
+
+2. **배너 스크립트** 넣기
+
+    - **slick**을 이용해 외부 라이브러리 사용하기 [(slick 사이트)](https://kenwheeler.github.io/slick/)
+    - 외부 라이브러리 사용 순서 : **html 마크업 셋팅 -> css 연동 -> jQuery연동 -> jQuery 호출**
+    - 외부 라이브러리를 이용한 element의 class 이름은 브라우저 개발자 도구를 이용해 확인후 CSS 작업을 한다.
+    - 옵션은 해당 라이브러리 사이트에서 확인 후 사용한다.
