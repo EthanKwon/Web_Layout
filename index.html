@@ -539,7 +539,7 @@
                     </li>
                     <li>
                       <a href="#">공지사항2</a>
-                      <ul style="display: none;">
+                      <ul >
                         <li>
                           <a href="#"
                             >두번째 공지사항 탭 메뉴 테스트 목록입니다.</a
@@ -559,7 +559,7 @@
                     </li>
                     <li>
                       <a href="#">공지사항3</a>
-                      <ul style="display: none;">
+                      <ul>
                         <li>
                           <a href="#"
                             >세번째 공지사항 탭 메뉴 테스트 목록입니다.</a
@@ -710,6 +710,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script type="text/javascript">
+
+      // 탭메뉴 
+      const $tab_list = $(".tab_menu");
+      $tab_list.find("ul ul").hide();
+      $tab_list.find("li.active > ul").show();
+
+      function tabMenu(e){
+        e.preventDefault();
+        const $this = $(this);
+        $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").find(">ul").hide();
+      }
+
+      $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
       //배너 slick 효과 주기
       // html 마크업 셋팅 -> css 연동 -> jQuery연동 -> jQuery 호출
       $(".banner").slick({
