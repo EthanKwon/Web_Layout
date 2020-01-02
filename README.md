@@ -1,5 +1,8 @@
 # Web_Layout
 
+
+## Web_Layout 주소 : https://ethankwon.github.io/Web_Layout/
+
 ### Layout 구성 연습하기 (19. 12. 13)
 
 1. **기초 Layout** 구성하기
