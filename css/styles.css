@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap");
 @import "reset.css";
 @import "slick.css";
+@import "lightgallery.css";
 
 body {
   font-family: -apple-system, "Nanum Gothic" BlinkMacSystemFont, "Segoe UI",
